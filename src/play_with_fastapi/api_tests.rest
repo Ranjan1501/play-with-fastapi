@@ -1,0 +1,20 @@
+POST http://localhost:8000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john@testmail.com",
+    "age": 20
+    
+}
+
+
+PUT http://localhost:8000/users/10?notify=true HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Ranjan",
+    "email": "ranjan@testmail.com",
+    "age": 20
+    
+}
